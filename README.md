@@ -30,10 +30,10 @@ GATDHAN_CMI_9589.ipynb: GATDHAN is run on Jupyter Notebook, and all the code for
 
 # Environment  
 GATDHAN is implemented to work under Python 3.9 and Jupyter Notebook  
-torch 2.5.*  
-numpy 1.22.*   
-pandas 1.5.*  
-torch_geometric 2.5.*  
+torch >=2.5.0  
+numpy >=1.22.0   
+pandas >=1.5.0  
+torch_geometric >=2.5.0  
  
 # Run steps  
 GATDHAN_CMI_9905.ipynb and GATDHAN_CMI_9589.ipynb can be upload into Jupyter Notebook and select ‘run all’ to train the model and obtain prediction scores for circRNA-miRNA associations.  
