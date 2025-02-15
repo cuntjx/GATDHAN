@@ -38,7 +38,7 @@ torch_geometric 2.5.*
 # Run steps  
 GATDHAN_CMI_9905.ipynb and GATDHAN_CMI_9589.ipynb can be upload into Jupyter Notebook and select ‘run all’ to train the model and obtain prediction scores for circRNA-miRNA associations.  
 ## Function descriptions for in files GATDHAN_CMI_9905.ipynb and GATDHAN_CMI_9589.ipynb   
-Integration of feature  
+### Integration of feature  
 def get_syn_sim(A, seq_sim, str_sim, mode)  
     PARAMETERS:  
     A(numpy matrix): The adjacency matrix of circRNAs between miRNAs.  
@@ -47,14 +47,14 @@ def get_syn_sim(A, seq_sim, str_sim, mode)
     mode: 0 = GIP kernel sim.  
     return the new similarity of circRNAs and miRNAs.  
     
-Get the index and type of the edges  
+### Get the index and type of the edges  
 def get_edge_index(matrix, new_A, threshold)   
     PARAMETERS:  
     matrix(numpy matrix): The similarity matrix of circRNAs or miRNAs.  
     new_A(numpy matrix): The adjacency matrix of circRNAs between miRNAs.  
     threshold (int): Threshold for distinguishing between head and tail node. Here, we do not distinguish between the head and tail nodes. 
     
-Dual attention layer  
+### Dual attention layer  
 class DGATConv (self, in_hid, out_hid, num_edge_types, negative_slope=0.2, dual=True, heads=1, mask=None, global_weight=True)  
     PARAMETERS:  
     in_hid (int): Dimension of input features.  
@@ -66,7 +66,7 @@ class DGATConv (self, in_hid, out_hid, num_edge_types, negative_slope=0.2, dual=
     mask(int, optional): Feature extraction by specific types of edges. (default: None)  
     global_weight (bool, optional): Controls the use of global weights. (default: True)  
 
-Hierarchical attention layer  
+### Hierarchical attention layer  
 class HetGATConv (self, in_hid, out_hid, negative_slope=0.2, norm=True, dual=True, global_weight=True)   
     PARAMETERS:    
     in_hid (int): Dimension of input features.  
@@ -75,14 +75,14 @@ class HetGATConv (self, in_hid, out_hid, negative_slope=0.2, norm=True, dual=Tru
     dual(bool, optional): Controls whether dual attention mechanisms are used. (default: True)  
     global_weight (bool, optional): Controls the use of global weights. (default: True)  
 
-GAT layer
+### GAT layer  
 class GATConv(MessagePassing):
 PARAMETERS:
 in_channels (int): Dimension of input features
 out_channels (int): Dimension of output features
 heads (int): Number of heads of multi-attention mechanisms
 
-Our model  
+### Our model  
 class GATDHAN(self,n_hid_layers: int, hid_features: list, hid_features2: list, n_heads: list, n_dis: int, n_pi: int,
                  dropout: float = 0.6, n_hid_layers2: int = 1, dual: bool = False)  
     PARAMETERS:
