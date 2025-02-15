@@ -9,9 +9,9 @@ Dual hierarchical attention network combined with residual mechanism for predict
 
 A_9589.csv: This file stores the association information between circRNAs and miRNAs. 
 
-merged_9589_circRNA_3.pkl: This file stores the features of circRNA which can be download from \url{https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac}.  
+merged_9589_circRNA_3.pkl: This file stores the features of circRNA which can be download from URL: https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac.  
 
-merged_9589_micRNA_3.pkl: This file stores the features of miRNA which can be download from \url{https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac}. 
+merged_9589_micRNA_3.pkl: This file stores the features of miRNA which can be download from URL: https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac. 
 
 ## CMI-9905  
 circSequence_9905.csv： This file stores the name and the sequence of circRNAs.  
@@ -20,9 +20,9 @@ miSequence_9905.csv: This file stores the name and the sequence of miRNAs.
 
 A.csv: This file stores the association information between circRNAs and drugs. 
 
-merged_9905_circRNA_3.pkl: This file stores the features of circRNA which can be download from \url{https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac}.  
+merged_9905_circRNA_3.pkl: This file stores the features of circRNA which can be download from URL: https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac.  
 
-merged_9905_micRNA_3.pkl: This file stores the features of miRNA which can be download from \url{https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac}. 
+merged_9905_micRNA_3.pkl: This file stores the features of miRNA which can be download from URL: https://github.com/ntitatip/A-Knowledge-Graph-Enhanced-Pre-trained-Large-Language-Model-for-Predicting-MicroRNA-circRNA-Interac}. 
 
 GATDHAN_CMI_9905.ipynb: GATDHAN is run on Jupyter Notebook, and all the code for CMI-9905 dataset is contained within this file.   
 
